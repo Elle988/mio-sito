@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio di Architettura</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            margin-top: 0;
+            color: #333;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .portfolio-item {
+            margin-bottom: 20px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .portfolio-item p {
+            margin: 0;
+        }
+        .review {
+            background: #f9f9f9;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 5px solid #333;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            background: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Studio di Architettura</h1>
+    </header>
+
+    <nav>
+        <a href="#chi-sono">Chi Sono</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#recensioni">Recensioni</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+
+    <section id="chi-sono">
+        <h2>Chi Sono</h2>
+        <p>Sono un architetto con oltre 10 anni di esperienza nella progettazione di spazi innovativi e funzionali. La mia filosofia di lavoro si basa sulla ricerca dell'equilibrio tra estetica e praticità, con un'attenzione particolare alla sostenibilità e all'uso efficiente delle risorse.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="progetto1.jpg" alt="Progetto 1">
+            <p><strong>Progetto 1:</strong> Descrizione del progetto 1.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="progetto2.jpg" alt="Progetto 2">
+            <p><strong>Progetto 2:</strong> Descrizione del progetto 2.</p>
+        </div>
+        <!-- Aggiungi altri progetti qui -->
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Benvenuti nel mio blog, dove condivido pensieri, idee e approfondimenti sul mondo dell'architettura. <a href="#">Leggi di più...</a></p>
+        <!-- Aggiungi i post del blog qui -->
+    </section>
+
+    <section id="recensioni">
+        <h2>Recensioni dei Clienti</h2>
+        <div class="review">
+            <p>"Un professionista impeccabile! Il progetto è stato curato nei minimi dettagli." - Cliente 1</p>
+        </div>
+        <div class="review">
+            <p>"L'architetto ha saputo interpretare perfettamente le nostre esigenze." - Cliente 2</p>
+        </div>
+        <!-- Aggiungi altre recensioni qui -->
+    </section>
+
+    <section id="contatti">
+        <h2>Contattami</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Messaggio" rows="5" required></textarea>
+            <button type="submit">Invia</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Studio di Architettura. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
